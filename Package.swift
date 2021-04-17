@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftyGif",
-    type: dynamic,
+    type: .dynamic,
     platforms: [
         .iOS("9.0"), .macOS(.v10_12),
     ],
