@@ -10,7 +10,6 @@ let package = Package(
     products: [
         .library(
             name: "SwiftyGif",
-            type: .dynamic,
             targets: ["SwiftyGif"]),
     ],
     dependencies: [],
